@@ -19,7 +19,7 @@ console.log("Loaded " + commands.length + " commands!\n");
 
 console.log("Registering global commands...");
 
-await rest.put(Routes.applicationCommands("961240507894353970"), {
+await rest.put(Routes.applicationCommands("1089199234449936395"), {
   body: commands,
 });
 
